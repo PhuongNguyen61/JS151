@@ -1,0 +1,28 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+
+body {
+    background-color: #dfeef0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+    color: #6a8d8f;
+    font-weight: bolder;
+}
+.picture {
+    border: 1px;
+    border-radius: 50%;
+}
+hr {
+    border: 3px dashed #4c6566;
+}
+.clone {
+    color: blue;
+    text-decoration: solid;
+}
+.clone:hover {
+    cursor: pointer;
+    border: 1px solid rebeccapurple;
+}

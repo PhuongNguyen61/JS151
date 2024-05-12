@@ -1,0 +1,17 @@
+body {
+	background-color: white;
+}
+
+p {
+	color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+#green {
+    background-color: green;
+}
