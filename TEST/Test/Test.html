@@ -8,10 +8,22 @@
 </head>
 
 <body>
-    <div class="blue">Blue</div>
-    <div class="red">Red</div>
-    <div id="green">Green</div>
-    <div class="pink">Pink</div>
-    <div>Pink</div>
+    <style>
+        #parent {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+        #child {
+            position: absolute;
+            top: 50px;
+            right: 10px;
+        }
+        </style>
+        
+        <div id="parent">
+            <img id="child" />
+        </div>
 </body>
 </html>

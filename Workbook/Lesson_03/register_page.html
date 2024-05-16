@@ -3,89 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng ký Facebook | Facebook</title>
+    <title>Đăng ký Facebook</title>
+    <link rel="stylesheet" href="register_page.css">
 </head>
 <body>
-    <h1>Đăng ký</h1>
-    <p>Nhanh chóng và dễ dàng.</p>
-    <hr>
+    <div class="container">
+        <div class="headline">
+            <h1>Đăng ký</h1>
+            <p>Nhanh chóng và dễ dàng.</p>
+        </div>
 
-    <span><input placeholder="Họ" type="text"></span>
-    <span><input placeholder="Tên" type="text"></span>
+        <div class="form_information">
+            <div class="full_name">
+                <div class="last_name">
+                    <input type="text" placeholder="Họ">
+                </div>
 
-    <p><input placeholder="Số di động hoặc email" type="text"></p>
-    <p><input placeholder="Mật khẩu mới" type="text"></p>
-   
-    <div>
-        <label for="">Ngày sinh</label> <br>
-        <span>
-            <select name="" id="">
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-                <option value="">5</option>
-                <option value="">6</option>
-                <option value="">7</option>
-                <option value="">8</option>
-                <option value="">9</option>
-                <option value="">10</option>
-                <option value="">11</option>
-                <option value="">12</option>
-                <option value="">13</option>
-                <option value="">14</option>
-                <option value="">15</option>
-                <option value="">16</option>
-                <option value="">11</option>
-                <option value="">12</option>
-                <option value="">13</option>
-                <option value="">14</option>
-                <option value="">15</option>
-                <option value="">16</option>
-                <option value="">17</option>
-                <option value="">18</option>
-                <option value="">19</option>
-                <option value="">20</option>
-                <option value="">21</option>
-                <option value="">22</option>
-                <option value="">23</option>
-                <option value="">24</option>
-                <option value="">25</option>
-                <option value="">26</option>
-                <option value="">27</option>
-                <option value="">28</option>
-                <option value="">29</option>
-                <option value="">30</option>
-                <option value="">31</option>
-            </select>
-        </span>
-        <span>
-            <select name="" id="">
-                <option value="">Tháng 1</option>
-                <option value="">Tháng 2</option>
-                <option value="">Tháng 3</option>
-                <option value="">Tháng 4</option>
-                <option value="">Tháng 5</option>
-                <option value="">Tháng 6</option>
-                <option value="">Tháng 7</option>
-                <option value="">Tháng 8</option>
-                <option value="">Tháng 9</option>
-                <option value="">Tháng 10</option>
-                <option value="">Tháng 11</option>
-                <option value="">Tháng 12</option>
-            </select>
-        </span>
-        <span>
-            <select name="" id="">
+                <div class="first_name">
+                    <input type="text" placeholder="Tên">
+                </div>
+            </div>
 
-            </select>
-        </span>
-    </div>
-    <div>
-        <label for="">Giới tính</label> <br>
-        <span>
-            <input type="radio">
-        </span>
+            <div class="email">
+                <input type="text" placeholder="Số di động hoặc email">
+            </div>
+
+            <div class="password">
+                <input type="password" placeholder="Mật khẩu mới">
+            </div>
+
+            <div class="form_birthday">
+                <div class="birthday_title">
+                    <p>Ngày sinh</p>
+                </div>
+
+                <div class="birthday">
+                    <div class="day">
+                        <select name="" id="">
+                            <option value="">Ngày</option>
+                        </select>
+                    </div>
+    
+                    <div class="month">
+                        <select name="" id="">
+                            <option value="">Tháng</option>
+                        </select>
+                    </div>
+    
+                    <div class="year">
+                        <select name="" id="">
+                            <option value="">Năm</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form_sex">
+                <div class="sex_title">
+                    <p>Giới tính</p>
+                </div>
+
+                <div class="sex ">
+                    <div class="female">
+                        <label for="">Nữ</label>
+                        <input type="radio">
+                    </div>
+    
+                    <div class="male">
+                        <label for="">Nam</label>
+                        <input type="radio">
+                    </div>
+    
+                    <div class="custom">
+                        <label for="">Tùy chỉnh</label>
+                        <input type="radio">
+                    </div>
+                </div>
+            </div>
+
+            <div class="custom_sex">
+                <div class="option_sex_name">
+                    <select name="" id="">
+                        <option value="">Chọn danh xưng</option>
+                        <option value="">Cô ấy: "Chúc cô ấy sinh nhật vui vẻ!"</option>
+                        <option value="">Anh ấy: "Chúc anh ấy sinh nhật vui vẻ!"</option>
+                        <option value="">Họ: "Chúc họ sinh nhật vui vẻ!</option>
+                    </select>
+                </div>
+
+                <div class="custom_sex_name_title">
+                    <p>Danh xưng của bạn hiển thị với tất cả mọi người.</p>
+                </div>
+
+                <div class="custom_sex_name">
+                    <input type="text" placeholder="Giới tính (không bắt buộc)">
+                </div>
+            </div>
+
+            <div class="policy">
+                <div class="policy_01">
+                    <p>Những người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn lên Facebook. Tìm hiểu thêm.</p>
+                </div>
+
+                <div class="policy_02">
+                    <p>Bằng cách nhấp vào Đăng ký, bạn đồng ý với Điều khoản, Chính sách quyền riêng tư và Chính sách cookie của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.</p>
+                </div>
+            </div>
+
+            <div class="button_register">
+                    <button>
+                        <b>Đăng ký</b>
+                    </button>
+            </div>
+        </div>
     </div>
 </body>
 </html>

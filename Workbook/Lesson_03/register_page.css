@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: pink;
+    /* text-align: center; */
+}
+
+.container {
+    /* text-align: center; */
+    color: #606770;
+    width: 450px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.headline {
+    padding: 15px;
+    border-bottom: 1px solid #ccd0d5;
+}
+
+h1 {
+    color: black;
+}
+.headline > p {
+    padding-top: 5px;
+    font-size: 0.93rem;
+}
+.form_information {
+    width: 100%;
+    padding: 15px;
+}
+
+input[type='text'],
+input[type='password'] {
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+
+select {
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+
+.full_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.full_name > div {
+    width: 48.5%;
+}
+
+.email {
+    padding-top: 10px;
+}
+
+.password {
+    padding-top: 10px;
+}
+
+.form_birthday {
+    padding-top: 15px;
+}
+
+.birthday_title {
+    font-size: 0.75rem;
+}
+
+.birthday {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.birthday > div {
+    width: 31.5%;
+}
+
+.form_sex {
+    padding-top: 15px;
+}
+
+.sex_title {
+    font-size: 0.75rem;
+}
+
+.sex {
+    padding-top: 5px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.sex > div {
+    width: 31.5%;
+    border: 1px  solid #ccd0d5;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .female {
+    width: 25%;
+}
+
+.male {
+    width: 27%;
+}
+
+.custom {
+    width: 40%;
+} */
+
+.sex > div > label {
+    color: black;
+    font-size: 1rem;
+}
+
+.custom_sex {
+    padding-top: 15px;
+}
+
+.custom_sex_name_title {
+    padding-top: 5px;
+    font-size: 0.75rem;
+}
+
+.custom_sex_name {
+    padding-top: 10px;
+}
+
+.policy {
+    padding-top: 10px;
+    font-size: 0.73rem;
+}
+
+.policy_02 {
+    padding-top: 15px;
+}
+
+.button_register {
+    /* background-color: aqua; */
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    font-size: 1.15rem;
+    background-color: #00a400;
+    color: #ffffff;
+    padding: 5px 65px;
+    border: solid white;
+    border-radius: 10px;
+}
