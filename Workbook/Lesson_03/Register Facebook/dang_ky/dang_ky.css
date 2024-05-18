@@ -1,61 +1,61 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
+    background-color: #f5f6f7;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: pink;
-    /* text-align: center; */
+    min-height: 110vh;
 }
 
 .container {
-    /* text-align: center; */
-    color: #606770;
+    background-color: white;
     width: 450px;
     border-radius: 10px;
-    background-color: white;
-    box-shadow: 0px 0px 10px #666;
+    box-shadow: 0 0 10px #606770;
+}
+
+p {
+    color: #606770;
+    font-size: 0.75rem;
 }
 
 .headline {
     padding: 15px;
-    border-bottom: 1px solid #ccd0d5;
+    border-bottom: 1px solid #dadde1;
 }
 
-h1 {
-    color: black;
-}
 .headline > p {
     padding-top: 5px;
     font-size: 0.93rem;
 }
+
 .form_information {
-    width: 100%;
     padding: 15px;
 }
 
 input[type='text'],
 input[type='password'] {
-    font-size: 1rem;
     width: 100%;
     padding: 10px;
     border: 1px solid #ccd0d5;
     border-radius: 5px;
     background-color: #f5f6f7;
+    font-size: 0.93rem;
 }
 
+
 select {
-    font-size: 1rem;
     width: 100%;
-    padding: 10px;
+    padding: 10px 5px;
     border: 1px solid #ccd0d5;
     border-radius: 5px;
+    font-size: 0.93rem;
 }
 
 .full_name {
@@ -72,15 +72,19 @@ select {
 }
 
 .password {
+    position: relative;
+    /* display: flex; */
     padding-top: 10px;
+}
+
+img {
+    height: 39.2px;
+    position: absolute;
+    right: 5px;
 }
 
 .form_birthday {
     padding-top: 15px;
-}
-
-.birthday_title {
-    font-size: 0.75rem;
 }
 
 .birthday {
@@ -90,56 +94,35 @@ select {
 }
 
 .birthday > div {
-    width: 31.5%;
+    width:31.5%;
 }
 
 .form_sex {
     padding-top: 15px;
 }
 
-.sex_title {
-    font-size: 0.75rem;
-}
-
 .sex {
     padding-top: 5px;
-    display: flex;
-    justify-content:space-between;
-}
-
-.sex > div {
-    width: 31.5%;
-    border: 1px  solid #ccd0d5;
-    padding: 10px;
-    border-radius: 5px;
     display: flex;
     justify-content: space-between;
 }
 
-/* .female {
-    width: 25%;
+.sex > div {
+    width:31.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    font-size: 0.93rem;
 }
 
-.male {
-    width: 27%;
-}
-
-.custom {
-    width: 40%;
-} */
-
-.sex > div > label {
-    color: black;
-    font-size: 1rem;
-}
-
-.custom_sex {
+.form_custom_sex {
     padding-top: 15px;
 }
 
-.custom_sex_name_title {
-    padding-top: 5px;
-    font-size: 0.75rem;
+.sex_name_title {
+    padding-top:5px;
 }
 
 .custom_sex_name {
@@ -148,7 +131,6 @@ select {
 
 .policy {
     padding-top: 10px;
-    font-size: 0.73rem;
 }
 
 .policy_02 {
@@ -156,17 +138,16 @@ select {
 }
 
 .button_register {
-    /* background-color: aqua; */
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
 button {
-    font-size: 1.15rem;
+    color: white;
     background-color: #00a400;
-    color: #ffffff;
-    padding: 5px 65px;
     border: solid white;
     border-radius: 10px;
+    padding: 8px 60px;
+    font-size: 1.15rem;
 }

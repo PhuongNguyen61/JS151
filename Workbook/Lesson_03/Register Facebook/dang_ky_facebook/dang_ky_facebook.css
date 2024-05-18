@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f5f6f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.container {
+    background-color: white;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #606770;
+}
+
+p {
+    color: #606770;
+    font-size: 0.75rem;
+}
+
+.headline {
+    padding: 15px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.headline > p {
+    padding-top: 5px;
+    font-size: 0.93rem;
+}
+
+.form_information {
+    padding: 15px;
+}
+
+input[type='text'],
+input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    background-color: #f5f6f7;
+    font-size: 0.93rem;
+}
+
+
+select {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    font-size: 0.93rem;
+}
+
+.full_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.full_name > div {
+    width: 48.5%;
+}
+
+.email {
+    padding-top: 10px;
+}
+
+.password {
+    padding-top: 10px;
+}
+
+.form_birthday {
+    padding-top: 15px;
+}
+
+.birthday {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.birthday > div {
+    width:31.5%;
+}
+
+.form_sex {
+    padding-top: 15px;
+}
+
+.sex {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sex > div {
+    width:31.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    font-size: 0.93rem;
+}
+
+.form_custom_sex {
+    padding-top: 15px;
+}
+
+.sex_name_title {
+    padding-top:5px;
+}
+
+.custom_sex_name {
+    padding-top: 10px;
+}
+
+.policy {
+    padding-top: 10px;
+}
+
+.policy_02 {
+    padding-top: 15px;
+}
+
+.button_register {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: #00a400;
+    border: solid white;
+    border-radius: 10px;
+    padding: 8px 60px;
+    font-size: 1.15rem;
+}
