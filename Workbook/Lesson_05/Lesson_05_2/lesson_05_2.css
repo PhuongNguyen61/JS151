@@ -125,7 +125,7 @@ body{
     display: flex;
     justify-content: space-around;
     position: relative;
-    bottom: 20px;
+    bottom: 25px;
 }
 
 .bot_2_0_img > img{

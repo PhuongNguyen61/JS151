@@ -118,29 +118,32 @@ p > b {
     display: flex;
 }
 
-.tron > img {
+.anh > img {
     width: 25px;
     height: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px black;
 }
 
-.tron_02 {
+.anh_2 {
     position: relative;
-    right: 10px;
+    right: 7px;
 }
 
-.tron_03 {
+.anh_3 {
     position: relative;
-    right: 20px;
+    right: 14px;
 }
 
-.tron_04 {
+.anh_4 {
     position: relative;
-    right: 30px;
+    right: 21px;
 }
 
-.tron_05 {
+.anh_5 {
     position: relative;
-    right: 40px;
+    right: 28px;
 }
 
 .form_learn {
@@ -153,7 +156,7 @@ p > b {
     width: 48.5%;
 }
 
-.form_learn > .learn > button {
+.learn > button {
     width: 100%;
     padding: 10px;
     font-size: 0.7rem;
