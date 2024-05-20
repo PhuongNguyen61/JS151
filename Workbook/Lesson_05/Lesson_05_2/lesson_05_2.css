@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #332e2f;
+}
+
+body{
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: white;
+    width: 700px;
+    padding: 30px 0px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px 70px 60px;
+}
+
+.top > div{
+    width: 50%;
+}
+
+.top_1{
+    font-size: 0.95rem;
+}
+
+.top_1_h1{
+    padding-top: 50px;
+}
+
+.top_1_p{
+    font-size: 0.8rem;
+    width: 70%;
+    padding-top: 15px;
+}
+
+.top_1_button{
+    padding-top: 15px;
+}
+
+.top_1_button > button{
+    font-size: 0.8rem;
+    padding: 10px 25px;
+    color: white;
+    background-color: #a26b4d;
+    border: solid white;
+    border-radius: 20px;
+}
+
+.top_2{
+    position: relative;
+}
+
+.top_2_img > img{
+    border-radius: 50%;
+}
+
+.top_2_img_1 > img{
+    width: 210px;
+}
+
+.top_2_img_2 > img{
+    width: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.bot{
+    background-color: #363032;
+}
+
+.bot_1_0_p > p{
+    font-size: 0.6rem;
+}
+
+._form_bot_1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.bot_1{
+    width: 60%;
+    border-radius: 35px;
+    background-color: #ecdac2;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+
+
+.bot_1_0_icon{
+    display: flex;
+    justify-content: center;
+}
+
+.bot_1_0_h3{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.bot_1_0_p{
+    display: flex;
+    justify-content: center;
+}
+
+.bot_1_0_p_1{
+    padding-top: 5px;
+}
+
+.bot_2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 20px;
+}
+
+.bot_2_0_img > img{
+    width: 90px;
+    border-radius: 10px;
+}
+
+.bot_2_0_p > p{
+    padding-top: 5px;
+    font-size: 0.55rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

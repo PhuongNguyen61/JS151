@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+    color: #767a81;
+}
+
+p > b {
+    color: black;
+}
+
+.container {
+    background-color: white;
+    width: 620px;
+    /* box-shadow: 0 0 10px #606770 */
+}
+
+.headline {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    font-size: 0.6rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo > img {
+    width: 30px;
+    height: 27.6px;
+}
+
+.headline_center {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headline_center > .our_class > select {
+    font-size: 0.6rem;
+    border: 0 solid white;
+    color: #767a81;
+}
+
+.search {
+    width: 240px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search_input > input {
+    width: 130px;
+    padding-top: 8.8px;
+    padding-bottom: 8.8px;
+    padding-left: 20px;
+    border: 1px solid #f6f4f4;
+    border-radius: 3px;
+    font-size: 0.5rem;
+}
+
+.search_icon {
+    position: relative;
+    left: 15px;
+    color: #c4c5c7;
+}
+
+.top {
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top > div {
+    width: 50%;
+}
+
+.top_01 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.top_01_h1 {
+    font-size: 0.8rem;
+}
+
+.top_01_p {
+    font-size: 0.6rem;
+    padding-top: 15px;
+}
+
+.total_students {
+    padding-left: 15px;
+    margin-top: 10px;
+    border-left: 3px solid #b33a6f;
+}
+
+.total_students_text {
+    font-size: 0.6rem;
+}
+
+.total_students_img {
+    padding-top: 5px;
+    display: flex;
+}
+
+.tron > img {
+    width: 25px;
+    height: 25px;
+}
+
+.tron_02 {
+    position: relative;
+    right: 10px;
+}
+
+.tron_03 {
+    position: relative;
+    right: 20px;
+}
+
+.tron_04 {
+    position: relative;
+    right: 30px;
+}
+
+.tron_05 {
+    position: relative;
+    right: 40px;
+}
+
+.form_learn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.form_learn > div {
+    width: 48.5%;
+}
+
+.form_learn > .learn > button {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.7rem;
+}
+
+.start_learning > button {
+    background-color: #b33a6f;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.learn_more > button {
+    background-color: #fbfcff;
+    color: black;
+    border: 1px solid #b33a6f;
+    border-radius: 8px;
+}
+
+.trusted_by {
+    padding-top: 15px;
+}
+
+.trusted_by_text {
+    font-size: 0.6rem;
+}
+
+.trusted_by_img {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img > img {
+    width: 65px;
+    height: 20.8px;
+    border: 1px solid #f6f4f4;
+}
+
+.top_02 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.anh_01 > img {
+    width: 120px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #c3c0c0;
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+
+.anh_02 > img {
+    height: 280px;
+    border-radius: 10px;
+}
+
+.mid {
+    padding: 30px 40px;
+}
+
+.mid_01 {
+    display: flex;
+    justify-content: center;
+}
+
+.mid_01_line > p {
+    font-size: 3rem;
+    height: 20px;
+    position: relative;
+    bottom: 45px;
+    right: 5px;
+    color: #b33a6f;
+}
+
+.mid_01_text {
+    font-size: 0.7rem;
+    position: relative;
+    left: 10px;
+}
+
+.mid_02 {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bot {
+    margin-bottom: 50px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot > div {
+    width: 110px;
+}
+
+.bot_title {
+    padding-top: 15px;
+    font-size: 0.7rem;
+}
+
+.bot_content {
+    padding-top: 15px;
+    font-size: 0.6rem;
+}
+
+.bot_learn_more {
+    padding-top: 15px;
+    font-size: 0.6rem;
+    display: flex;
+}
+
+.bot_learn_more > div > i {
+    padding-left: 10px;
+}
+
